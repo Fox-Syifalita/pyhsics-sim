@@ -205,7 +205,7 @@ const NewtonThirdLawSimulation: React.FC = () => {
                 <Typography variant="body2" sx={{ color: '#92400e', lineHeight: 1.6, fontSize: '0.875rem', fontWeight: 500 }}>
                   {currentSlide === 0 
                     ? "Click \"Strike\" to start simulation. Adjust mass & velocity to observe"
-                    : "Click \"Strike\" to start simulation. Adjust masses & distance"}
+                    : "Adjust masses & distance to see how gravity changes symmetrically"}
                 </Typography>
               </Box>
               <IconButton 
